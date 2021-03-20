@@ -1,4 +1,7 @@
-<div class="page-content p-5" id="content" [ngClass]="{'active' : !isNavbarOpen}">
-  <button (click)="changeState()" type="button" class="btn btn-light bg-white rounded-pill shadow-sm px-4 mb-4"><i class="fa fa-bars mr-2"></i><small class="text-uppercase font-weight-bold">Toggle</small></button>
-  <router-outlet></router-outlet>
+<div class="page-content p-2" id="content" [ngClass]="{'active' : !isNavbarOpen}">
+    <img [ngClass]="{'active' : !isNavbarOpen}"
+         class="cursor-pointer"
+         (click)="changeState()"
+         width="20">
+  <router-outlet class="p-5"></router-outlet>
 </div>

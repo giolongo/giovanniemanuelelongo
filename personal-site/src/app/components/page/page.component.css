@@ -19,3 +19,18 @@
     width: calc(100% - 17rem);
   }
 }
+img {
+  content: url("../../../assets/icons/visibility.svg");
+}
+
+img.active {
+  content: url("../../../assets/icons/show.svg");
+}
+
+img.active:hover {
+  content: url("../../../assets/icons/visibility.svg");
+}
+
+img:hover {
+  content: url("../../../assets/icons/show.svg");
+}

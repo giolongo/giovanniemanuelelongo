@@ -5,6 +5,7 @@ import {Rooting} from './model/rooting';
 import {HomeComponent} from './components/home/home.component';
 
 const routes: Routes = [
+  { path: '', redirectTo: Rooting.HOME, pathMatch: 'full' },
   { path: Rooting.HOME, component: HomeComponent },
   { path: Rooting.CARRER, component: CarrerComponent }
 ];
