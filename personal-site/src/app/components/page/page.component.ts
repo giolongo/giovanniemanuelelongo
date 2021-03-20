@@ -1,8 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import {select, Store} from '@ngrx/store';
-import {NavbarState} from '../store/reducer/navbar.reducer';
-import {selectNavbarIsOpen} from '../store/selector/navbar.selectors';
-import {closeNavbar, openNavbar} from '../store/action/navbar.actions';
+import {NavbarState} from '../../store/reducer/navbar.reducer';
+import {selectNavbarIsOpen} from '../../store/selector/navbar.selectors';
+import {closeNavbar, openNavbar} from '../../store/action/navbar.actions';
 
 @Component({
   selector: 'app-page',

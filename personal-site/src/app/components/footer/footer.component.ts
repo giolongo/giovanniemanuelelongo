@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {SocialEnum} from '../model/social-enum';
-import {socialProfileUrl} from '../../environments/environment';
+import {SocialEnum} from '../../model/social-enum';
+import {socialProfileUrl} from '../../../environments/environment';
 
 @Component({
   selector: 'app-footer',

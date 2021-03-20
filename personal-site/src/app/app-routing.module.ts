@@ -1,9 +1,12 @@
-import { NgModule } from '@angular/core';
-import { RouterModule, Routes } from '@angular/router';
-import {CarrerComponent} from './carrer/carrer.component';
+import {NgModule} from '@angular/core';
+import {RouterModule, Routes} from '@angular/router';
+import {CarrerComponent} from './components/carrer/carrer.component';
+import {Rooting} from './model/rooting';
+import {HomeComponent} from './components/home/home.component';
 
 const routes: Routes = [
-  { path: 'carrer', component: CarrerComponent }
+  { path: Rooting.HOME, component: HomeComponent },
+  { path: Rooting.CARRER, component: CarrerComponent }
 ];
 
 @NgModule({
